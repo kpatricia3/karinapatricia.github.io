@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;0,900;1,700");
+
+body {
+	background-color: #161616;
+}
+
+.full-width {
+	width: 100%;
+}
+
+.main-column {
+	padding: 5% 20% 5% 20%;
+}
+
+.project-title {
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 36px;
+	color: #EFEFEF;
+}
+
+.project-tags {
+	background-color: #242424;
+	border: none;
+	border-radius: 26px;
+	text-align: center;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-size: 12px;
+	line-height: 15px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #a2a2a2;
+	padding: 6px 16px;
+
+}
+
+p {
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 22px;
+	color: #a2a2a2;
+}
+
+p strong {
+	font-weight: 700;
+	color: #efefef;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+p i {
+	font-weight: 700;
+	color: #565656;
+	font-style: italic;
+}
+
+table td, table td * {
+    vertical-align: top;
+}
