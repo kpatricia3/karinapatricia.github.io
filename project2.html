@@ -16,14 +16,14 @@
 				<li id="item-three">DESIGN</li>
 			</ul>
 		</div> -->
-		<div id = "navigation">
+<!-- 		<div id = "navigation">
 			<ul>
 				<a href ="#intro"><li id = "item-one" class = "selected">INTRO</li></a>
 				<a href = "#discover"><li id = "item-two" class = "unselected">DISCOVER</li></a>
 				<a href = ""><li id = "item-three" class = "unselected">DEFINE</li></a>
 				<a href = ""><li id = "item-four" class = "unselected">DESIGN</li></a>
 			</ul>
-		</div>
+		</div> -->
 
 		<div class="parallax">
 			<img src="images/Projects/Project 2/project_head_img.jpg" class="full-width"/>
@@ -132,11 +132,11 @@
 		//Get the button
 		var mybutton = document.getElementById("backToTop");
 
-		var navigation = document.getElementById("navigation");
-		var itemOne = document.getElementById("item-one");
-		var itemTwo = document.getElementById("item-two");
-		var itemThree = document.getElementById("item-three");
-		var itemFour = document.getElementById("item-four");
+// 		var navigation = document.getElementById("navigation");
+// 		var itemOne = document.getElementById("item-one");
+// 		var itemTwo = document.getElementById("item-two");
+// 		var itemThree = document.getElementById("item-three");
+// 		var itemFour = document.getElementById("item-four");
 
 		// When the user scrolls down 20px from the top of the document, show the button
 		window.onscroll = function() {scrollFunction()};
@@ -144,23 +144,23 @@
 		function scrollFunction() {
 		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
 		  	mybutton.style.transform = "rotate(0deg)";
-		  	if (document.body.scrollTop > 480 || document.documentElement.scrollTop > 480) {
-		  		itemOne.style.visibility = "visible";
-				itemTwo.style.visibility = "visible";
-				itemThree.style.visibility = "visible";
-				itemFour.style.visibility = "visible";
-				if (document.body.scrollTop > 900 || document.documentElement.scrollTop > 900) {
-					itemOne.className = "unselected";
-					itemTwo.className = "selected";
-					itemThree.className = "unselected";
-					itemFour.className = "unselected";
-				}
-		  	} else {
-				itemOne.style.visibility = "hidden";
-				itemTwo.style.visibility = "hidden";
-				itemThree.style.visibility = "hidden";
-				itemFour.style.visibility = "hidden";
-		  	}
+// 		  	if (document.body.scrollTop > 480 || document.documentElement.scrollTop > 480) {
+// 		  		itemOne.style.visibility = "visible";
+// 				itemTwo.style.visibility = "visible";
+// 				itemThree.style.visibility = "visible";
+// 				itemFour.style.visibility = "visible";
+// 				if (document.body.scrollTop > 900 || document.documentElement.scrollTop > 900) {
+// 					itemOne.className = "unselected";
+// 					itemTwo.className = "selected";
+// 					itemThree.className = "unselected";
+// 					itemFour.className = "unselected";
+// 				}
+// 		  	} else {
+// 				itemOne.style.visibility = "hidden";
+// 				itemTwo.style.visibility = "hidden";
+// 				itemThree.style.visibility = "hidden";
+// 				itemFour.style.visibility = "hidden";
+// 		  	}
 		  } else {
 		  	mybutton.style.transform = "rotate(180deg)";
 		  }
