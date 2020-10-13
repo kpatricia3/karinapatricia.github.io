@@ -2385,6 +2385,7 @@ input, select, textarea {
 		line-height: 24px;
 		color: #010400;
 		transition: 0.2s;
+		cursor: pointer;
 	}
 
 	.button-primary:hover {
