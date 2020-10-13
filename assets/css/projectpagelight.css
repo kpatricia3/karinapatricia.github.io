@@ -301,7 +301,29 @@ table td, table td * {
 /*	transform: rotate(0deg);*/
 }
 
-.logo {
+#home {
+	position: fixed;
+	width: 44px;
+	height: 44px;
+	bottom: 50px;
+	right: 50px;
+	z-index: 99;
+	border: solid;
+	background-color: rgba(255, 255, 255, 0.5);
+	cursor: pointer;
+	padding: 11px;
+	border-radius: 50%;
+	border: none;
+	transition: 0.2s;
+	top: 40px;
+	left: 40px;
+}
+
+#home:hover {
+	background-color: #D3FFF3;
+}
+
+/* .logo {
 	position: fixed;
 	top: 0px;
 	left: 40px;
@@ -314,7 +336,7 @@ table td, table td * {
 	font-weight: 300;
 	border-bottom: none;
 	color: #000000
-}
+} */
 
 .collapsible {
   background-color: #048CD8;
