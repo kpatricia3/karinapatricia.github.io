@@ -104,6 +104,7 @@ table td, table td * {
 	line-height: 24px;
 	color: #010400;
 	transition: 0.2s;
+	cursor: pointer;
 }
 
 .button-primary:hover {
@@ -134,6 +135,7 @@ table td, table td * {
 	line-height: 24px;
 	color: #4f4f4f;
 	transition: 0.2s;
+	cursor: pointer;
 }
 
 .button-secondary-figma:hover {
