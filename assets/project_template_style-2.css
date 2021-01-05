@@ -328,6 +328,10 @@ p b {
 	padding-top: 10px;
 }
 
+.split-text-content p {
+	margin-top: 7px;
+}
+
 .split-text-content-section {
 	float: right;
 	width: calc(100%*(3/4));
