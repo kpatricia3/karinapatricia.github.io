@@ -535,12 +535,14 @@ p b {
 		float: none;
 		width: 100%;
 		padding-bottom: 30px;
+		padding-top: 0 !important;
 	}
 
 	.split-image-left {
 		float: none;
 		width: 100%;
 		padding-bottom: 30px;
+		padding-top: 0 !important;
 	}
 
 	.split-text-case-study {
