@@ -570,7 +570,7 @@ p b {
 	background-color: rgba(0,0,0,0);
 	border: solid;
 	border-width: 2px;
-	border-color: #c5c5c5;
+	border-color: #efefef;
 	border-radius: 32px;
 	padding: 8px 32px;
 	text-align: center;
@@ -580,15 +580,15 @@ p b {
 	font-size: 16px;
 	line-height: 24px;
 	letter-spacing: 2px;
-	color: #c5c5c5;
+	color: #efefef;
 	cursor: pointer;
 }
 
 .button-primary:hover {
-	background-color: #c5c5c5;
+	background-color: #efefef;
 	border: solid;
 	border-width: 2px;
-	border-color: #c5c5c5;
+	border-color: #efefef;
 	color: #161616;
 	transition: 0.2s;
 }
