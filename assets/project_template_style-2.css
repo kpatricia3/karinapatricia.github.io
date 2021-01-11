@@ -47,7 +47,7 @@ html {
 	}
 
 	.footer-avatar {
-		float: left;
+		display: none;
 	}
 
 	.footer-avatar img {
