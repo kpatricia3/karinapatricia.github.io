@@ -5,22 +5,20 @@
 		<link rel="stylesheet" href="assets/project_template_style-2.css?version=3"/>
 	</head>
 	<body>
-<!--  		<div class="above">
- 		</div> -->
 
-		<div id="navbar">
+		<div id="navbar" class="sticky">
 
 			<ul>
 				<li class="active" style="float: left; padding-left: 5%"><a href="index.html"><img src="images/logo.svg"/></a></li>
 				<li style="float: right; padding-right: 5%; padding-top: 7px;"><a href="files/Karina_UX_Resume_2020.pdf" target="_blank">RESUME / CV</a></li>
-				<li style="float: right; padding-top: 7px;"><a href="#contact">CONTACT</a></li>
+				<li style="float: right; padding-top: 7px;"><a href="about.html">INFO</a></li>
 				<li style="float: right; padding-top: 7px;"><a href="index.html#works">WORKS</a></li>
-				<li style="float: right; padding-top: 7px;"><a href="index.html#about">ABOUT</a></li>
 			</ul></div>
 
 		<!-- PROJECT TITLE -->
 
 		<div class="below">
+		<div style="height: 60px"></div>
 		<div class="main-column" style="background-color: #0a0a0a">
 			<h1 class="project-title">Boys and Girls Clubs of Metro Atlanta Attendance Tracker Dashboard</h1>
 		</div>
@@ -382,21 +380,6 @@
 			</div>
 		</div>
 	</div>
-	
-	<script>
-		window.onscroll = function() {myFunction()};
-
-		var navbar = document.getElementById("navbar");
-		var sticky = navbar.offsetTop;
-
-		function myFunction() {
-		  if (window.pageYOffset >= sticky) {
-		    navbar.classList.add("sticky")
-		  } else {
-		    navbar.classList.remove("sticky");
-		  }
-		}
-	</script>
 
 	</body>
 </html>
