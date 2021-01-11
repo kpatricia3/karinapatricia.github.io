@@ -47,6 +47,7 @@ html {
 	}
 
 	.footer-avatar {
+		/*float: left;*/
 		display: none;
 	}
 
@@ -264,6 +265,10 @@ h5 {
 
 }
 
+.h6-home strong {
+	font-weight: 500;
+}
+
 /*Body Text*/
 p {
 	color: #bdbdbd;
@@ -284,6 +289,12 @@ p strong {
 p b {
 	color: #CACACA;
 	font-weight: 500;
+}
+
+.small {
+	font-size: 14px;
+	line-height: 22px;
+	margin-top: 0px;
 }
 
 /*Project Intro Inline Blocks*/
@@ -338,6 +349,16 @@ p b {
 	width: calc(100%*(3/4));
 }
 
+.split-about-left {
+	float: left;
+	width: calc(100%*(7.5/12));
+}
+
+.split-about-right {
+	float: right;
+	width: calc(100%*(1.2/4));
+}
+
 @media only screen and (max-width: 800px) {
     .split-text-content {
         float: none;
@@ -353,6 +374,19 @@ p b {
     .split-text-header {
     	float: none;
     	width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+	.split-about-left {
+    	float:none;
+    	width: 100%;
+    }
+
+    .split-about-right {
+    	float: none;
+    	width: 100%;
+    	padding-top: 80px;
     }
 }
 
@@ -385,7 +419,7 @@ p b {
 /*Three Columns Text Image*/
 .column-three {
 	float: left;
-	width: calc(100%*(0.95/3));
+	width: calc(100%*(0.95/3)) !important;
 	padding-right: 10px;
 }
 
@@ -619,6 +653,18 @@ p b {
 	.social-links {
 		padding-top: 20px;
 	}
+}
+
+.button-icon {
+	width: 48px;
+	height: 48px;
+	border: solid;
+	border-color: #efefef;
+	background-color: #efefef;
+	cursor: pointer;
+	padding: 10px;
+	border-radius: 50%;
+	transition: 0.2s;
 }
 
 /*Line Element*/
