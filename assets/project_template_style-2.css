@@ -645,6 +645,36 @@ p b {
 	cursor: pointer;
 }
 
+/*Back To Top*/
+#backToTop {
+  position: fixed;
+  width: 44px;
+  height: 44px;
+  opacity: 0;
+  bottom: 8%;
+  right: 5%;
+  z-index: 99;
+  border: none;
+  background-color: rgba(50, 50, 50, 0.8);
+  cursor: pointer;
+  padding: 12px;
+  border-radius: 50%;
+  transition: 0.2s;
+}
+
+#backToTop:hover {
+	background-color: #325BEC;
+	box-shadow: 0px 0px 20px rgba(0, 120, 207, 0.5);
+	bottom: 8%;
+	width: 54px;
+	height: 54px;
+	right: 4.7%;
+}
+
+#backToTop:active {
+	background-color: #1D3279;
+}
+
 .social-links {
 	float: left;
 }
