@@ -423,7 +423,7 @@ p b {
 /*Three Columns Text Image*/
 .column-three {
 	float: left;
-	width: calc(100%*(0.96/3)) !important;
+	width: calc(100%*(0.95/3)) !important;
 	padding-right: 12px;
 }
 
