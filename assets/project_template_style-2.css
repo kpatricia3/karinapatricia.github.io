@@ -439,14 +439,14 @@ p b {
 
 @media only screen and (max-width: 1200px) {
 	.column-three {
-		width: calc(100%*(0.95/2));
+		width: 100% !important;
 		padding-bottom: 20px;
 	}
 }
 
 @media only screen and (max-width: 800px) {
 	.column-three {
-		width: 100%;
+		width: 100% !important;
 		padding-bottom: 20px;
 	}
 }
