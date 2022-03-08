@@ -11,6 +11,78 @@ html {
 	scroll-behavior: smooth;
 }
 
+/*HOME PAGE NEW*/
+.home-top {
+	padding-top: 15%;
+	padding-left: 26%;
+	padding-right: 26%;
+	padding-bottom: 10%;
+}
+
+.home-column {
+	padding: 0% 5% 2% 5%;
+}
+
+.home-hero-image {
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.home-left {
+	width: 43%;
+	float: left;
+	padding-left: 5%;
+/*	padding-top: 2%;*/
+	padding-bottom: 3%;
+}
+
+.home-right {
+	width: 43%;
+	float: right;
+	padding-right: 5%;
+/*	padding-top: 2%;*/
+	padding-bottom: 3%;
+}
+
+.home-hero-image img {
+	transition: transform .3s ease-out;
+}
+
+.home-hero-image:hover img {
+	transform: scale(1.05);
+}
+
+.home-project-type {
+	float: right;
+	padding-top: 30px;
+}
+
+.home-project-overview {
+	float: left;
+}
+
+@media only screen and (max-width: 1000px) {
+	.home-project-type {
+		float: none;
+		padding-top: 20px;
+	}
+
+	.home-project-overview {
+		float: none;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.home-top {
+		padding-top: 15%;
+		padding-left: 15%;
+		padding-right: 15%;
+		padding-bottom: 13%;
+	}
+}
+
+/*HOME PAGE NEW END*/
+
 .main-column {
 	padding: 5% 18% 5% 18%;
 }
