@@ -2,32 +2,39 @@
 <html>
 	<head>
 		<title>Karina Patricia | Portfolio</title>
-		<link rel="stylesheet" type="text/css" href="assets/project_template_style-2.css?version=5"/>
+		<link rel="stylesheet" href="assets/project_template_style-2.css?version=3"/>
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 	</head>
 	<body>
-		<div id="navbar" class="sticky">
+
+		<div class="above" style="padding-right: 0%" id="about">
+			<div style="height: calc(100vh - 62px)">
+				<div class="main-column" style="padding-bottom: 0%;">
+					<!-- <div style="padding-top: 12%; padding-right: 10%"> -->
+					<div style="margin: 0;top: 42%; position: absolute; -ms-transform: translateY(-50%); transform: translateY(-50%); padding-right: 24%">
+						<div><h5>HI THERE, I'M KARINA~</h5></div>
+						<div><h1 class="h1-home" style="margin-top: 12px;">A user experience designer born in the tropics, now based in Atlanta</h1></div>
+						<div><h6 class="h6-home" style="margin-top: 10px;">Currently designing learning experiences @ <a href = "https://www.autodesk.com/" target="_blank">Autodesk</a>!</h6></div>
+					</div>
+				</div>
+				<img src="images/lineart.svg" style="width: 100%; position: absolute; left: 0; bottom: 58.4px"/>
+			</div>
+		</div>
+
+
+		<div id="navbar">
 
 			<ul>
 				<li class="active" style="float: left; padding-left: 5%"><a href="index.html"><img src="images/logo.svg"/></a></li>
 				<li style="float: right; padding-right: 5%; padding-top: 7px;"><a href="files/Karina-Resume-2022.pdf" target="_blank">RESUME / CV</a></li>
 				<li style="float: right; padding-top: 7px;"><a href="about.html">INFO</a></li>
 				<li style="float: right; padding-top: 7px;"><a href="#works">WORKS</a></li>
-		</ul></div>
+			</ul></div>
 
 		<div class="below">
-			<div class="home-top">
-				<center>
-				<div><h5>HI THERE, I'M KARINA <img src="images/hand-emoji.png" style="height: 24px; transform: scaleX(-1)"/></h5></div>
-				<div><h2 style="margin-top: 12px">An experience designer born in the tropics, now based in Atlanta, GA.</h2></div>
-				<div><h6 class="h6-home" style="margin-top: 10px;">Currently designing learning experiences @ <a href = "https://www.autodesk.com/" target="_blank">Autodesk</a>!</h6></div>
-
-				<h6 class="h6-home" style="padding-top: 80px"><a href="#works">VIEW WORKS &nbsp;<img src="images/arrow-down-white.svg"/></a></h6>
-				</center>
-			</div>
-
 			<!-- PROJECTS -->
 
-			<div id="works" style="clear: both;"></div>
+			<div id="works" style="clear: both; height: 100px;"></div>
 
 			<div class="home-left">
 					<div>
@@ -62,12 +69,12 @@
 
 			<div class="home-column">
 				<div class="home-hero-image">
-					<a href="listee.html">
+					<a href="listee3.html">
 						<img src="images/home-pics-2/listee-cover.png" class="full-width-image"/>
 					</a>
 				</div>
 				<div class="home-project-overview">
-					<h6 class="h6-home" style="margin-top: 10px;"><a href="listee.html">Dashboard redesign of Listee's F&B planning tool for pre-order businesses</a></h6>
+					<h6 class="h6-home" style="margin-top: 10px;"><a href="listee3.html">Dashboard redesign of Listee's F&B planning tool for pre-order businesses</a></h6>
 					<p style="margin-top: 0px">DESIGN SYSTEMS &#183; UI DESIGN</p>
 				</div>
 			</div>
@@ -84,7 +91,7 @@
 						<h6 class="h6-home" style="margin-top: 10px; margin-bottom: 8px; line-height: 22px;"><a href="onetrust.html">Data map and email template builder redesign for OneTrust</a></h6>
 						<div style="clear: both;"></div>
 
-						<p style="margin-top: 0px">UX DESIGN & RESEARCH</p>
+						<p style="margin-top: 0px">UX DESIGN & RESEARCH &#183; VISUAL DESIGN</p>
 					</div>
 			</div>
 
@@ -98,7 +105,7 @@
 						<h6 class="h6-home" style="margin-top: 10px; margin-bottom: 8px; line-height: 22px;"><a href="choa.html">Envisioning future clinical trial monitoring for Children's Healthcare of Atlanta</a></h6>
 						<div style="clear: both;"></div>
 
-						<p style="margin-top: 0px">UX DESIGN & RESEARCH</p>
+						<p style="margin-top: 0px">UX DESIGN & RESEARCH &#183; VISUAL DESIGN</p>
 					</div>
 			</div>
 
@@ -112,15 +119,15 @@
 						<h6 class="h6-home" style="margin-top: 10px; margin-bottom: 8px; line-height: 22px;"><a href="bgcma.html">Helping Boys & Girls Clubs of Metro Atlanta leverage attendance data</a></h6>
 						<div style="clear: both;"></div>
 
-						<p style="margin-top: 0px">USER RESEARCH &#183; DATA VISUALIZATION</p>
+						<p style="margin-top: 0px">UX DESIGN & RESEARCH &#183; VISUAL DESIGN</p>
 					</div>
 			</div>
 
 			<div style="clear: both"></div>
 			<div style="height: 120px"></div>
 
-			<!-- 			FOOTER -->
-			<div style="height: 200px; background: linear-gradient(180deg, rgba(10, 10, 10, 0) 0%, #0A0A0A 100%); margin-top: 40px;" id="contact"></div>
+<!-- 			FOOTER -->
+			<div style="height: 200px; background: linear-gradient(180deg, rgba(10, 10, 10, 0) 0%, #0A0A0A 100%); margin-top: 80px;" id="contact"></div>
 			<div style="height: 400px; padding-bottom: 40px; background-color: #0A0A0A">
 				<div class="footer">
 					<div class="footer-avatar">
@@ -146,9 +153,22 @@
 					</div>
 				</div>
 			</div>
-
 		</div>
 
+	<script>
+		window.onscroll = function() {myFunction()};
+
+		var navbar = document.getElementById("navbar");
+		var sticky = navbar.offsetTop;
+
+		function myFunction() {
+		  if (window.pageYOffset >= sticky) {
+		    navbar.classList.add("sticky")
+		  } else {
+		    navbar.classList.remove("sticky");
+		  }
+		}
+	</script>
 
 	</body>
 </html>
