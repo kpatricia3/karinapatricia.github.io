@@ -148,7 +148,7 @@ html {
 /*	position: sticky;*/
 	top: 0;
 	width: 100%;
-	border-bottom: 0.5px solid #bdbdbd;
+	border-bottom: 1.5px solid #bdbdbd;
 	z-index: 9999;
 }
 
