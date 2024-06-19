@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;500&display=swap');
 
+/*Ver 2*/
+@import url("https://use.typekit.net/sef3uzd.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
 
 /*Main Stuff*/
 body {
 	background-color: #161616;
+	margin: 0;
 }
 
 html {
@@ -155,12 +160,13 @@ html {
 #navbar li {
 	float: left;
 	color: #bdbdbd;
-	font-family: IBM Plex Sans;
+/*	font-family: IBM Plex Sans;*/
+	font-family: Inter;
 	font-style: normal;
 	font-weight: 300;
 	font-size: 13px;
 	line-height: 14px;
-	letter-spacing: 2px;
+	letter-spacing: 0.02em;
 }
 
 #navbar li a {
@@ -199,19 +205,22 @@ html {
 /*Headers*/
 h1 {
 	color: #efefef;
-	font-family: Chivo;
+	font-family: articulat-cf, sans-serif;
+/*	font-family: Chivo;*/
 	font-style: normal;
-	font-weight: 300;
+/*	font-weight: 300;*/
+	font-weight: 600;
 	font-size: 54px;
 	line-height: 58px;
+	letter-spacing: -0.02em;
 	margin: 40px 0px 0px 0px;
 }
 
 .h1-home {
 	color: #efefef;
-	font-family: Chivo;
+/*	font-family: Chivo;*/
 	font-style: normal;
-	font-weight: 300;
+/*	font-weight: 300;*/
 	font-size: 48px;
 	line-height: 60px;
 	margin: 20px 0px 0px 0px;
@@ -233,9 +242,10 @@ h1 {
 
 h2 {
 	color: #efefef;
-	font-family: Chivo;
+/*	font-family: Chivo;*/
+	font-family: articulat-cf, sans-serif;
 	font-style: normal;
-	font-weight: 300;
+	font-weight: 600;
 	font-size: 36px;
 	line-height: 44px;
 	margin: 18px 0px 0px 0px;
@@ -271,11 +281,13 @@ p a:hover {
 
 h4 {
 	color: #efefef;
-	font-family: IBM Plex Sans;
+/*	font-family: IBM Plex Sans;*/
+	font-family: Inter;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 600;
 	font-size: 24px;
 	line-height: 28px;
+	letter-spacing: -0.02em;
 	margin: 14px 0px 24px 0px;
 }
 
@@ -300,12 +312,13 @@ h4 a:hover {
 /*Sub-headers*/
 h5 {
 	color: #bdbdbd;
-	font-family: IBM Plex Sans;
+/*	font-family: IBM Plex Sans;*/
+	font-family: articulat-cf, sans-serif;
 	font-style: normal;
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 16px;
 	line-height: 24px;
-	letter-spacing: 2px;
+	letter-spacing: 0.02em;
 	margin: 0;
 }
 
@@ -332,11 +345,13 @@ h5 {
 
 .h6-home {
 	color: #efefef;
-	font-family: IBM Plex Sans;
+/*	font-family: IBM Plex Sans;*/
+	font-family: Inter;
 	font-style: normal;
 	font-weight: 300;
 	font-size: 18px;
 	line-height: 32px;
+	letter-spacing: -0.01em;
 	margin: 20px 0px 0px 0px;
 
 }
@@ -348,7 +363,8 @@ h5 {
 /*Body Text*/
 p {
 	color: #bdbdbd;
-	font-family: IBM Plex Sans;
+/*	font-family: IBM Plex Sans;*/
+	font-family: Inter;
 	font-style: normal;
 	font-weight: 300;
 	font-size: 16px;
@@ -357,7 +373,7 @@ p {
 
 p strong {
 	color: #efefef;
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 17px;
 	line-height: 30px;
 }
@@ -679,26 +695,31 @@ p b {
 .button-primary {
 	background-color: rgba(0,0,0,0);
 	border: solid;
-	border-width: 2px;
-	border-color: #efefef;
-	border-radius: 32px;
-	padding: 8px 32px;
+	border-width: 1.5px;
+	border-color: #FFFFFF;
+	/*border-radius: 32px;
+	padding: 8px 32px;*/
+
+	border-radius: 8px;
+	padding: 10px 20px;
+
 	text-align: center;
-	font-family: IBM Plex Sans;
+/*	font-family: IBM Plex Sans;*/
+	font-family: articulat-cf, sans-serif;
 	font-style: normal;
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 16px;
 	line-height: 24px;
-	letter-spacing: 2px;
-	color: #efefef;
+	letter-spacing: 0.02em;
+	color: #FFFFFF;
 	cursor: pointer;
 }
 
 .button-primary:hover {
 	background-color: #efefef;
 	border: solid;
-	border-width: 2px;
-	border-color: #efefef;
+/*	border-width: 2px;*/
+/*	border-color: #efefef;*/
 	color: #161616;
 	transition: 0.2s;
 }
